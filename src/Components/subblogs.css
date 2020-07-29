@@ -1,0 +1,20 @@
+h2 {
+  font-size: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #343a40;
+}
+
+p {
+  color: #85868c;
+  font-size: 0.8rem;
+}
+
+h4 {
+  font-size: 0.7rem;
+}
+
+.hover-blue:hover {
+  color: darkslateblue !important;
+  text-decoration: none;
+}

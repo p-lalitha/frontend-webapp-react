@@ -1,0 +1,58 @@
+.team {
+  width: 100%;
+  border-radius: 17px;
+  box-shadow: 2px 2px 20px #e4e5e6;
+  padding: 40px;
+  text-align: center;
+  cursor: pointer;
+  margin: 30px;
+  box-sizing: border-box;
+  background-size: cover;
+}
+
+p {
+  color: inherit !important;
+}
+
+.team-pic {
+  border: 3px solid #f25b03;
+  border-radius: 100%;
+  padding: 6px;
+  max-width: 255px;
+  text-align: center;
+}
+
+.team-pic img {
+  object-fit: cover;
+  border-radius: 100%;
+  max-width: 100% !important;
+}
+
+.team:hover {
+  background-color: #f25b03;
+  color: white !important;
+  margin-top: 0;
+}
+
+.team:hover .team-pic {
+  border: 3px solid white;
+}
+
+.team-desc h3 {
+  font-size: 1.25rem;
+}
+
+.team-desc p::hover {
+  color: #ffffff !important;
+}
+
+@media screen and (max-width: 600px) {
+  .team {
+    margin: 0;
+    max-width: 100%;
+  }
+
+  .team-pic {
+    margin: auto;
+  }
+}

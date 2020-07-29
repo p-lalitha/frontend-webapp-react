@@ -1,0 +1,9 @@
+.nounderline:hover {
+  text-decoration: none;
+  margin-left: 15px;
+  color: #fff;
+}
+
+.nounderline {
+  color: rgba(255, 255, 255, 0.5);
+}
