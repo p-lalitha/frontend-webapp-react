@@ -47,3 +47,53 @@
     right: 40%;
   }
 }
+
+.city {
+  text-align: center;
+  width: 105px;
+  margin: auto;
+}
+
+.city img {
+  width: 105px;
+  max-width: 100%;
+}
+
+.city h3 {
+  font-size: 16px;
+}
+
+.width50 {
+  padding: 10px;
+}
+
+.custom-span {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 70px;
+  height: 70px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.inner-block {
+  padding-left: 80px;
+  max-width: 100%;
+}
+
+.inner-block h4 {
+  font-size: 1.25rem;
+}
+
+.inner-block p {
+  color: #6c757d !important;
+  font-size: 1rem;
+}
+
+@media (max-width: 770px) and (min-width: 400px) {
+  .width50 {
+    width: 50% !important;
+    box-sizing: border-box;
+  }
+}
